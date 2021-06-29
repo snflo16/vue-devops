@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "perdeploy": "vue-cli-service build",
+    "predeploy": "vue-cli-service build",
     "deploy": "gh-pages -d dist",
     "clean": "gh-pages-clean",
     "test:unit": "vue-cli-service test:unit",
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "gh-pages": "^3.2.3",
     "vue": "^3.0.0"
   },
   "devDependencies": {
@@ -30,6 +31,7 @@
     "eslint-plugin-vue": "^7.0.0",
     "prettier": "^2.2.1",
     "typescript": "~3.9.3",
-    "vue-jest": "^5.0.0-0"
+    "vue-jest": "^5.0.0-0",
+    "vue-loader-v16": "^16.0.0-beta.5.4"
   }
 }
